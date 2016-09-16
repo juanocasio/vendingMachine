@@ -10,8 +10,3 @@ class Quarter {
     };
 
 }
-
-
-var coin = new Quarter();
-
-coin.Value;

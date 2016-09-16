@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Vending machine simulation</h1>
+        <div class="col-md-8">
+        </div>
+        <div class="col-md-4">
+            <h4>
+                Paid: $
+                <span id="total"></span>
+                <br />
+                <button class="btn btn-primary" on-click="machine.acceptCoin(new Quarter())">
+                    Insert quarter
+                </button>
+            </h4>
+        </div>
     </div>
     <script src="js/app.js"></script>
 </body>
+
 </html>
