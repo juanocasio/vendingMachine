@@ -1,4 +1,6 @@
-/// <reference path="VendingMachine.ts" />
+/// <reference path="./VendingMachine.ts" />
 
 
 var machine  = new VendingMachine();
+
+ko.applyBindings(machine);
